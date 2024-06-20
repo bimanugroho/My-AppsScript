@@ -188,11 +188,6 @@ function cleanDuplicateEntries(material, mid, sheetName) {
   }
 }
 
-function sendTelegramMessage(message) {  
-  var token = '7250616270:AAHqNSpfvw5irdWkuW19XK5IHr7Cdd5kTOw'; // Ganti dengan token API bot Anda  
-  var chatId = '-4213068058'; // Ganti dengan chat ID atau grup ID Anda  
-  var url = 'https://api.telegram.org/bot' + token + '/sendMessage';
-  //var url = 'https://api.telegram.org/bot7250616270:AAHqNSpfvw5irdWkuW19XK5IHr7Cdd5kTOw/getUpdates';
 
   var payload = {
     'chat_id': chatId,
